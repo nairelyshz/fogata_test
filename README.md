@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# Proyecto: Fogata Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A continuación se detallan los pasos para configurar y ejecutar el proyecto.
 
-Currently, two official plugins are available:
+## Requisitos previos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Asegúrate de tener instalados los siguientes programas en tu máquina:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (versión 20 o superior)
+- [npm](https://www.npmjs.com/) (incluido con Node.js)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalación
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clona el repositorio:**
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+   ```bash
+   git clone https://github.com/nairelyshz/fogata_test.git
+   cd fogata_test
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```
+
+2. **Instala dependencias**
+
+````bash
+npm install
+
+3. **Ejecución**
+```bash
+npm run dev
+````
+
+Esto iniciará la aplicación en modo de desarrollo. Abre tu navegador y visita http://localhost:5173 para ver tu aplicación en acción.
