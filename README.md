@@ -21,12 +21,16 @@ Asegúrate de tener instalados los siguientes programas en tu máquina:
 
 2. **Instala dependencias**
 
-````bash
-npm install
+   ```bash
+   npm install
+
+   ```
 
 3. **Ejecución**
-```bash
-npm run dev
-````
+
+   ```bash
+    npm run dev
+
+   ```
 
 Esto iniciará la aplicación en modo de desarrollo. Abre tu navegador y visita http://localhost:5173 para ver tu aplicación en acción.
